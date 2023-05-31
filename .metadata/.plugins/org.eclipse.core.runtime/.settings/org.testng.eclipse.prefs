@@ -1,0 +1,5 @@
+_pasted_code_.outdir=test-output
+eclipse.preferences.version=1
+javabasics.outdir=test-output
+javabasicsxmlTemplateFile=testNG
+seleniumPrograms.outdir=test-output

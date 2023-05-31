@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;BROWERATUOMATION&apos; to &apos;IEDriverServer_Win32_3.141.59&apos;" description="Move &apos;BROWERATUOMATION&apos; to &apos;IEDriverServer_Win32_3.141.59&apos;" destination="IEDriverServer_Win32_3.141.59" element1="BROWERATUOMATION" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1681122860861" updateReferences="true"/>
+</session>

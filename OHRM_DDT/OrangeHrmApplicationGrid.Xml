@@ -1,0 +1,18 @@
+<suite name="orangeHRM Application">
+<test name="chrome">
+
+<paramter name="Browser" value="chrome"/>
+<classes>
+ 	<class name="com.SeleniumGrid.GridLoginTest"/>
+ </classes>
+ </test>
+ 
+
+<test name="firefox">
+	<paramter name="Browser" value="firefox"/>
+	
+<classes>
+ <class name="com.Selenium.GridLoginTest"/>
+ </classes>
+</test>
+</suite>

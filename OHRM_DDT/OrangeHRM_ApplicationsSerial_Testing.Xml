@@ -1,0 +1,13 @@
+<suite name="OrangeHRM Application" serial="Tests">
+<test name="logintest">
+	<classes>
+		<class name="com.baseTest.LoginValidationText"></class>
+	</classes>
+ </test>
+ 
+ <test name="Add Employee Test">
+ 	<classes>
+ 		<class name="com.baseTest.AddEmployeeTest"></class>
+ 	</classes>
+  </test>
+</suite> 

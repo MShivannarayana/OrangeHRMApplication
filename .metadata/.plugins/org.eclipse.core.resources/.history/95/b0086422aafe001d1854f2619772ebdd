@@ -1,0 +1,9 @@
+package OrangeHRMApplicationWebPagesTest;
+
+import OrangeHRMApplicationWebPages.OrangeHRMHomePage;
+import OrangeHRMApplicationWebPages.OrangeHRMLoginPage;
+
+public class OrangeHRmAddEmployeeTest {
+	OrangeHRMLoginPage logInPage;
+	OrangeHRMHomePage homePage;
+	OrangeHRMAddEmployee

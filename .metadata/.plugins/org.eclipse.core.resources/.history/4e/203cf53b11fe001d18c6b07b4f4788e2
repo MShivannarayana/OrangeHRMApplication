@@ -1,0 +1,6 @@
+package OrangeHRMApplicationWebPagesTest;
+
+public class OrangeHRMAdddEmployeePagelist extends loginPageTest{
+	
+
+}

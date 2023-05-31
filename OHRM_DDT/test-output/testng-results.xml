@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-27T19:23:14 IST" name="Default suite" finished-at="2023-05-27T19:23:38 IST" duration-ms="23842">
+    <groups>
+    </groups>
+    <test started-at="2023-05-27T19:23:14 IST" name="Default test" finished-at="2023-05-27T19:23:38 IST" duration-ms="23842">
+      <class name="com.baseTest.AddEmployeeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.baseTest.AddEmployeeTest@4de4b452]" started-at="2023-05-27T19:23:14 IST" name="setup" finished-at="2023-05-27T19:23:18 IST" duration-ms="3600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="OHRMApplicationLogInPageValidationTest()[pri:1, instance:com.baseTest.AddEmployeeTest@4de4b452]" started-at="2023-05-27T19:23:18 IST" name="OHRMApplicationLogInPageValidationTest" description="LoginPageValidation Test" finished-at="2023-05-27T19:23:21 IST" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OHRMApplicationLogInPageValidationTest -->
+        <test-method signature="oHRMApplicationLogInPageValidationTest()[pri:1, instance:com.baseTest.AddEmployeeTest@4de4b452]" started-at="2023-05-27T19:23:21 IST" name="oHRMApplicationLogInPageValidationTest" description="LoginPageValidation Test" finished-at="2023-05-27T19:23:21 IST" duration-ms="112" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#logInPanelHeading"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:47'
+System info: host: 'SIVA_ACHARYA', ip: '192.168.1.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\SHIVAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59926}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56234d02232e9d6a7b4a33bdfbc87b6
+*** Element info: {Using=id, value=logInPanelHeading}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#logInPanelHeading"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:47'
+System info: host: 'SIVA_ACHARYA', ip: '192.168.1.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\SHIVAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59926}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56234d02232e9d6a7b4a33bdfbc87b6
+*** Element info: {Using=id, value=logInPanelHeading}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.baseTest.AddEmployeeTest.oHRMApplicationLogInPageValidationTest(AddEmployeeTest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMApplicationLogInPageValidationTest -->
+        <test-method signature="oHRMApplicationHomePageAdminTest()[pri:2, instance:com.baseTest.AddEmployeeTest@4de4b452]" started-at="2023-05-27T19:23:21 IST" name="oHRMApplicationHomePageAdminTest" finished-at="2023-05-27T19:23:21 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMApplicationHomePageAdminTest -->
+        <test-method signature="oHRMApplicationHomePagePIMTest()[pri:3, instance:com.baseTest.AddEmployeeTest@4de4b452]" started-at="2023-05-27T19:23:21 IST" name="oHRMApplicationHomePagePIMTest" description="PIM Test" finished-at="2023-05-27T19:23:22 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMApplicationHomePagePIMTest -->
+        <test-method signature="oHRMApplicationHomePageAddEmployeeTest()[pri:4, instance:com.baseTest.AddEmployeeTest@4de4b452]" started-at="2023-05-27T19:23:22 IST" name="oHRMApplicationHomePageAddEmployeeTest" description="Add Employee Test" finished-at="2023-05-27T19:23:23 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMApplicationHomePageAddEmployeeTest -->
+        <test-method signature="oHRMApplicationHomePageAddEmployeeValidationTest()[pri:5, instance:com.baseTest.AddEmployeeTest@4de4b452]" started-at="2023-05-27T19:23:23 IST" name="oHRMApplicationHomePageAddEmployeeValidationTest" description="AddEmployee Validation Test" finished-at="2023-05-27T19:23:35 IST" duration-ms="12428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMApplicationHomePageAddEmployeeValidationTest -->
+        <test-method signature="oHRMApplicationHomePagelogOutTest()[pri:8, instance:com.baseTest.AddEmployeeTest@4de4b452]" started-at="2023-05-27T19:23:35 IST" name="oHRMApplicationHomePagelogOutTest" description="LogOut Test" finished-at="2023-05-27T19:23:37 IST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMApplicationHomePagelogOutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.baseTest.AddEmployeeTest@4de4b452]" started-at="2023-05-27T19:23:37 IST" name="tearDown" finished-at="2023-05-27T19:23:38 IST" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.baseTest.AddEmployeeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

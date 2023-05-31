@@ -1,0 +1,40 @@
+package OrangeHRMApplicationWebPagesTest;
+
+import org.testng.annotations.Test;
+
+import com.utility.Log;
+
+import OrangeHRMApplicationWebPages.OrangeHRMLoginPage;
+
+public class OrangeHRMLoginPageTest
+{
+	OrangeHRMLoginPage loginpage;
+	@Test(priority=1,description="validting LogIn Page LogInPanel Text")
+	public void validtingLogInPageTextTest()
+	{
+		loginpage=new OrangeHRMLoginPage();
+		loginpage.validatingLogInPageText();
+		
+		Log.info("Validating LogIn Page logInPanel text Successfull-navigated to LogIN Page");
+		
+	}
+	@Test(priority=2,description="Vailding LogIn Functionality")
+	public void validtingLogInTest()
+	{
+		loginpage=new OrangeHRMLoginPage();
+		loginpage.validatingLogIn("Admin","Shiva@143");
+		
+		Log.info("Validating LogIn functionality Successfull");
+	}
+	@Test(priority=3,description="validting LogIn Page Logo")
+	public void validtingLogInPageLogoTest()
+	{
+		loginpage=new OrangeHRMLoginPage();
+		loginpage.validatingLogInPageLogo();
+		
+		Log.info("OrangeHRM Application LogIn page Logo existing");
+		
+		
+	}
+	
+}
